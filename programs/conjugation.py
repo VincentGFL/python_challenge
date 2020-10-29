@@ -1,4 +1,4 @@
-#word = input("Enter a word: ")
+  #word = input("Enter a word: ")
 
 def wordconjugation(word):
     with open("wordbank.txt", "r") as readfile:
