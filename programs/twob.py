@@ -1,3 +1,19 @@
+'''
+Given a string containing lowercase letters (a-z) and numbers,
+determine whether the string contains more numbers, more
+letters, or an equal number of both. If the string contains an
+invalid character (not a-z or 0-9) it should be ignored. If no
+numbers or letters are present, the default response should be
+“equal”. 
+
+countstring("abc123") -> "equal"
+countstring("hello123") -> "letters"
+countstring("sdf12345") -> "numbers"
+countstring("1£2$aAbBcC") -> "letters"
+countstring("ASD£!((") -> "equal"
+
+'''
+
 def countstring(string):
     letter = 0
     number = 0
